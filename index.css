@@ -15,9 +15,10 @@ body{
 .box{
     max-width: 40em;
     color: white;
-    padding: 3em; 
+    padding: 2em; 
     border: solid;
     border-radius: .5em;
+    overflow: hidden;
 
 }
 .inner-box{
@@ -26,15 +27,10 @@ body{
     align-items: center; 
 
 }
-h1{
-    font-size: 1.8vmax;
-    padding:1vmax;
-
-}
 img {
-    width: 4vmax;
-    height: 4vmax;
-    padding:1vmax;
+    width: 4em;
+    height: 4em;
+    padding: 1em;
     border-radius:50%;
     box-shadow: 4px 4px 4px black;
 
@@ -42,39 +38,43 @@ img {
 form{
     background: rgb(170, 169, 170);
     margin:1vmax 0 0 0;
-    padding:2vmax;
+    padding: 1em;
     color: black;
     border-radius: .5em;
     
-   
 }
 input{
     background: none;
-    margin:1vmax 0 0 0;
-    padding:1vmax;
+    margin: 1em 0 0 0;
+    padding: 1em;
     outline:none;
     border:none;
-    border: .1vmax solid ;
+    border: .1em solid ;
     
 }
 p{
     word-break: break-all;
-    padding: 1vmax;
-    border-bottom: .1vmax solid ;
+    padding: 1em;
+    border-bottom: .1em solid ;
     font-weight:bold;
      
 }
 button{
     background: #2e2c2c; 
-    width: 12vmax;
-    margin:1vmax 0 0 0;
-    padding:1vmax;
+    width: 12em;
+    margin:1em 0 0 0;
+    padding:1.2em;
     outline:none;
     border:none;
     border-radius: .5em;
-    font-size: .9vmax;
+    font-size: 1em;
     font-weight:bold;  
     color: white; 
+}
+button:hover{
+    background: none; 
+    border: .2em solid black;
+    color: black;
 }
 
 /* form error styles */
@@ -85,7 +85,7 @@ button{
 
 }
 .error-border {
-    border: .1vmax solid rgb(190, 20, 20);
+    border: .1em solid rgb(190, 20, 20);
 }
 
 /* media query */
