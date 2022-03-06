@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    
+    <link rel="stylesheet" href="index.css">
+
+    <title>Numbers Converter</title>
+  </head>
+
+  <body>
+
+    <div class="box">
+
+         <div class="inner-box">
+
+            <h1>Convert Number to Roman Numeral</h1>
+            <div><img src="https://cdn1.vectorstock.com/i/thumb-large/41/95/xii-roman-numeral-grey-square-icon-vector-20634195.jpg"></div>
+
+        </div>
+
+        <form action="#" id="form">
+
+            <label for="number" style="font-weight:bold;">Enter a Number</label> <br><br>
+            <span id="error"></span> <br>
+            <input id="number">
+
+            <div>
+                <div class="result"><p id="result"></p></div>
+
+                <div style="display: flex; justify-content: space-between;">
+                    <button onclick = "convertToRoman(); validateForm();">CONVERT</button>
+                    <button type="submit" id="reset">RESET</button>
+                </div>
+            </div>
+            
+        </form>
+        
+    </div>
+
+    <script src="main.js"></script>
+
+  </body>
+</html>

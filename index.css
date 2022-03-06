@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+* {
+  vertical-align: baseline;
+}
+body{
+    background: #2e2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    height: 100vh;
+
+}
+.box{
+    max-width: 40em;
+    color: white;
+    padding: 3em; 
+    border: solid;
+    border-radius: .5em;
+
+}
+.inner-box{
+    display:flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+h1{
+    font-size: 1.8vmax;
+    padding:1vmax;
+
+}
+img {
+    width: 4vmax;
+    height: 4vmax;
+    padding:1vmax;
+    border-radius:50%;
+    box-shadow: 4px 4px 4px black;
+
+}
+form{
+    background: rgb(170, 169, 170);
+    margin:1vmax 0 0 0;
+    padding:2vmax;
+    color: black;
+    border-radius: .5em;
+    
+   
+}
+input{
+    background: none;
+    margin:1vmax 0 0 0;
+    padding:1vmax;
+    outline:none;
+    border:none;
+    border: .1vmax solid ;
+    
+}
+p{
+    word-break: break-all;
+    padding: 1vmax;
+    border-bottom: .1vmax solid ;
+    font-weight:bold;
+     
+}
+button{
+    background: #2e2c2c; 
+    width: 12vmax;
+    margin:1vmax 0 0 0;
+    padding:1vmax;
+    outline:none;
+    border:none;
+    border-radius: .5em;
+    font-size: .9vmax;
+    font-weight:bold;  
+    color: white; 
+}
+
+/* form error styles */
+        
+#error {
+    
+    color: rgb(190, 20, 20);
+
+}
+.error-border {
+    border: .1vmax solid rgb(190, 20, 20);
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+
+    .inner-box{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+}
