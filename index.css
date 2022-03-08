@@ -76,6 +76,7 @@ button{
     font-size: .8em;
     font-weight: bold;
     padding: 1em;
+    color: white; 
 }
 
 /* form error styles */
