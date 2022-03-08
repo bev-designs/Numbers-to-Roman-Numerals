@@ -37,7 +37,7 @@ img {
 }
 form{
     background: rgb(170, 169, 170);
-    margin:1vmax 0 0 0;
+    margin: 1em 0 0 0;
     padding: 1em;
     color: black;
     border-radius: .5em;
@@ -61,7 +61,7 @@ p{
 }
 button{
     background: #2e2c2c; 
-    width: 12em;
+    width: 10em;
     margin:1em 0 0 0;
     padding:1.2em;
     outline:none;
@@ -71,10 +71,11 @@ button{
     font-weight:bold;  
     color: white; 
 }
-button:hover{
-    background: none; 
-    border: .2em solid black;
-    color: black;
+.by{
+    text-align: center;
+    font-size: .8em;
+    font-weight: bold;
+    padding: 1em;
 }
 
 /* form error styles */
