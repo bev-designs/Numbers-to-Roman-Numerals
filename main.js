@@ -64,3 +64,8 @@ function clear() {
         error.innerHTML = '';
     }
 }
+// brand paragraph styles
+document.getElementById("by").style.color = 'white';
+document.getElementById("by").style.fontSize = '.8rem';
+document.getElementById("by").style.border = 'none';
+document.getElementById("by").style.textAlign = 'center';
